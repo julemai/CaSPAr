@@ -1,7 +1,7 @@
 # Welcome to CaSPAr
 
 ## Temporarily Out of Service
-**The processing server that supports CaSPAr is temporarily out of service for routine maintenance. Any job submitted will remain in queue but will not be processed. Full service is expected to resume on August 29, 2018. We apologize for any inconvenience this may cause.
+**The processing server that supports CaSPAr is temporarily out of service for routine maintenance. Any job submitted will remain in queue but will not be processed. Full service is expected to resume on August 29, 2018. We apologize for any inconvenience this may cause.**
 _CaSPAr Team_
 
 
