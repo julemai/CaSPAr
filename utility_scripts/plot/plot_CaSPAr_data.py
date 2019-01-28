@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 from __future__ import print_function
 
-# Copyright 2016-2018 Juliane Mai - juliane.mai(at)uwaterloo.ca
+# Copyright 2016-2019 Juliane Mai - juliane.mai(at)uwaterloo.ca
 #
 # License
 # This file is part of Juliane Mai's personal code library.
@@ -23,12 +23,16 @@ from __future__ import print_function
 
 """
 
-Plots CASAPAR data
+Plots CaSPAr data
 
 Run with::
 
-      run plot_CASPAR_data.py -i /Users/j6mai/Desktop/CASPAR/sample_data_new_attr/CaPA_coarse_2017100218.nc -v CaPA_coarse_A_PR_SFC -g CaPA_coarse_2017100218
-      run plot_CASPAR_data.py -i /Users/j6mai/Desktop/CASPAR/sample_data_new_attr/CaLDAS_2017100200_000.nc  -v CaLDAS_A_I0_Profile  -g CaLDAS_2017100200_000
+      PNG-FILENAME    ... name of the plot created (PNG extension is appended automatically)
+      CaSPAr-FILENAME ... name incl. path to one of your netCDF files
+      VARNAME         ... name of variable that you want to plot
+
+      run plot_CASPAR_data.py -i PNG-FILENAME -v <VARNAME> -g <PNG-FILENAME>
+      run plot_CASPAR_data.py -i my/path/CaLDAS_2017100218.nc  -v CaLDAS_A_I0_Profile -g CaLDAS_2017100200_000
 
       
 """
