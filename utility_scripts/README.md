@@ -11,4 +11,5 @@ Folder                     | Description
 :------------------------- | :-----------------------------------
 lib                        | commonly used Python tools across the other scripts
 plots                      | script to plot your data to PNG or PDF
-
+read_netcdf                | scripts to demonstrate how to read NetCDF files with various scripting languages
+write_netcdf               | scripts to demonstrate how to write NetCDF files with various scripting languages
