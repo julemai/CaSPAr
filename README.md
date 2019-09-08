@@ -1,4 +1,4 @@
-# The Canadian Surface Prediction Archive (CaSPAr):<br> A Platform to Enhance Environmental Modeling in Canada and Globally
+# The Canadian Surface Prediction Archive (CaSPAr): A Platform to Enhance Environmental Modeling in Canada and Globally
 *by Juliane Mai, Kurt C. Kornelsen, Bryan A. Tolson, Vincent Fortin, Nicolas Gasset and Djamel Bouhemhem, David Schäfer, Michael Leahy, François Anctil, and Paulin Coulibaly*
 
 ## Abstract
@@ -17,5 +17,5 @@ Helpful pages:
 
 ## Citation
 Mai et al. (2019).<br>
-The Canadian Surface Prediction Archive (CaSPAr):<br> A Platform to Enhance Environmental Modeling in Canada and Globally.<br>
+The Canadian Surface Prediction Archive (CaSPAr): A Platform to Enhance Environmental Modeling in Canada and Globally.<br>
 *Bulletin of the American Meteorological Society*, under review.
