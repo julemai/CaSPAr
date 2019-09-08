@@ -10,9 +10,10 @@ This documentation is designed to be a living technical document with relation t
 We encourage all users to fork and share their codes.
 
 Helpful pages:
-* [How to get started and download your first data](https://github.com/julemai/CaSPAr/wiki/Download-data)
-* [Available products](https://github.com/julemai/CaSPAr/wiki/Products)
-* [Introduction of Reading and Writing NetCDF files](https://github.com/julemai/CaSPAr/wiki/Reading-and-Writing-of-NetCDF-files)
+* [[ How to get started and download your first data ]]
+* [[ Available products ]]
+* [[ CaSPAr file naming convention and variables ]]
+* [[ Introduction of Reading and Writing NetCDF files ]]
 * [Pre- and Postprocessing scripts](https://github.com/julemai/CaSPAr/tree/master/utility_scripts)
 
 ## Citation
