@@ -19,4 +19,4 @@ Helpful pages:
 ## Citation
 Mai et al. (2019).<br>
 The Canadian Surface Prediction Archive (CaSPAr): A Platform to Enhance Environmental Modeling in Canada and Globally.<br>
-*Bulletin of the American Meteorological Society*, under review.
+*Bulletin of the American Meteorological Society*, https://doi.org/10.1175/BAMS-D-19-0143.1.
