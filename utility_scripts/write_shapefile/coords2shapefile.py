@@ -30,9 +30,14 @@ Polygon does not need to be closed.
 Requires shapefile package which can be installed using "pip install pyshp". 
 For further details see: https://code.google.com/archive/p/pyshp/
 
+History
+-------
+Written,  JM, May 2020
+
 """
 
-import shapefile    
+import shapefile
+import sys
 
 
 def coords2shapefile(filename,coords):
@@ -76,20 +81,33 @@ def coords2shapefile(filename,coords):
     if area >= 0:
         coords.reverse()    # transform counter-clockwise to clockwise
     
-    
-    # ------------------------
-    # Create a polygon shapefile
-    # ------------------------
-    # Found under:
-    #     https://code.google.com/archive/p/pyshp/
-    w = shapefile.Writer(shapefile.POLYGON)
-    
-    # an arrow-shaped polygon east of Vancouver, Seattle, and Portland
-    w.poly([coords])   
-    w.field('FIRST_FLD','C','40')
-    w.record('First','Polygon')
-    w.save(filename)
-    
+    if sys.version_info < (3,0,0):
+        # ------------------------
+        # Create a polygon shapefile
+        # ------------------------
+        # Found under:
+        #     https://code.google.com/archive/p/pyshp/
+        w = shapefile.Writer(shapefile.POLYGON)
+        
+        # an arrow-shaped polygon east of Vancouver, Seattle, and Portland
+        w.poly([coords])   
+        w.field('FIRST_FLD','C','40')
+        w.record('First','Polygon')
+        w.save(filename)
+    else:
+        # ------------------------
+        # Create a polygon shapefile
+        # ------------------------
+        # Found under:
+        #     https://code.google.com/archive/p/pyshp/
+        w = shapefile.Writer(target=filename) 
+        
+        # an arrow-shaped polygon east of Vancouver, Seattle, and Portland
+        w.poly([coords])   
+        w.field('FIRST_FLD','C','40')
+        w.record('First','Polygon')
+        w.close()
+        
     
     # ------------------------
     # Write projection information
@@ -108,6 +126,6 @@ if __name__ == '__main__':
     # doctest.testmod(optionflags=doctest.NORMALIZE_WHITESPACE)
 
     coords = [[-123,50], [-118,40], [-118,44], [-113,44]]
-    filename = '/tmp/shp-test/polygon'
+    filename = 'polygon.shp'
 
     coords2shapefile(filename,coords)
