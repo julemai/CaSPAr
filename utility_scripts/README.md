@@ -13,3 +13,4 @@ lib                        | commonly used Python tools across the other scripts
 plots                      | script to plot your data to PNG or PDF
 read_netcdf                | scripts to demonstrate how to read NetCDF files with various scripting languages
 write_netcdf               | scripts to demonstrate how to write NetCDF files with various scripting languages
+write_shapefile            | script and function to write coordinates of a polygon to a shapefile that can be uploaded to CaSPAr
