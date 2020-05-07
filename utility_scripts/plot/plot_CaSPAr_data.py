@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 from __future__ import print_function
 
-# Copyright 2016-2019 Juliane Mai - juliane.mai(at)uwaterloo.ca
+# Copyright 2016-2020 Juliane Mai - juliane.mai(at)uwaterloo.ca
 #
 # License
 # This file is part of Juliane Mai's personal code library.
