@@ -25,7 +25,7 @@ from __future__ import print_function
 
 Converts list of coordinates (in degrees) to a shapefile that can be uploaded to CaSPAr.
 
-Polygon needs to be counter-clockwise and does not need to be closed.
+Polygon does not need to be closed.
 
 Requires shapefile package which can be installed using "pip install pyshp". 
 For further details see: https://code.google.com/archive/p/pyshp/
@@ -51,7 +51,7 @@ def coords2shapefile(filename,coords):
         Zip these four files to upload to CaSPAr.
 
     coords: array
-        2-D Array of clockwise coordinates of a single polygon. CaSPAr does not support
+        2-D Array of coordinates of a single polygon. CaSPAr does not support
         multiple polygons. Polygon does not need to be closed. The shapefile package is 
         checking and copies automatically the first point to the end if polygon is not closed.
         Example:
