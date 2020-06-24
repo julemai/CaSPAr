@@ -317,6 +317,11 @@ if (True):
         map = Basemap(projection='npstere',boundinglat=10,lon_0=270,resolution='c')
         parallels = np.arange(-80,80,20)
         meridians = np.arange(-360,1,40)
+    elif (product == 'CaPA_coarse_exp'):
+        # Polar Stereographic Projection
+        map = Basemap(projection='npstere',boundinglat=10,lon_0=270,resolution='c')
+        parallels = np.arange(-80,80,20)
+        meridians = np.arange(-360,1,40)
     elif (product == 'CaPA_fine'):
         # Polar Stereographic Projection
         map = Basemap(projection='npstere',boundinglat=10,lon_0=270,resolution='c')
@@ -333,6 +338,16 @@ if (True):
         map = Basemap(projection='mill',lon_0=180)
         parallels = np.arange(-90,90,30)
         meridians = np.arange(-360,1,60)
+    elif (product == 'RDRS'):
+        # Polar Stereographic Projection
+        map = Basemap(projection='npstere',boundinglat=-10,lon_0=270,resolution='c')
+        parallels = np.arange(-80,80,20)
+        meridians = np.arange(-360,1,40)
+    elif (product == 'RDRS_v2'):
+        # Polar Stereographic Projection
+        map = Basemap(projection='npstere',boundinglat=-10,lon_0=270,resolution='c')
+        parallels = np.arange(-80,80,20)
+        meridians = np.arange(-360,1,40)
     elif (product == 'RDPS'):
         # Polar Stereographic Projection
         map = Basemap(projection='npstere',boundinglat=-10,lon_0=270,resolution='c')
