@@ -126,6 +126,6 @@ if __name__ == '__main__':
     # doctest.testmod(optionflags=doctest.NORMALIZE_WHITESPACE)
 
     coords = [[-123,50], [-118,40], [-118,44], [-113,44]]
-    filename = 'polygon.shp'
+    filename = 'polygon'   # don't use any file ending here
 
     coords2shapefile(filename,coords)
