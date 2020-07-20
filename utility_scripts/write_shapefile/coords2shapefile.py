@@ -69,6 +69,9 @@ def coords2shapefile(filename,coords):
 
     """
 
+    # make sure coords is a list of lists
+    coords = [ list(ii) for ii in coords ]
+    
     # -----------------------
     # Check if polygon is clockwise:
     #       Use "shapefile.signed_area()" method to determine if a ring is clockwise or counter-clockwise
