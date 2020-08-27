@@ -1,0 +1,12 @@
+# created shape files
+utility_scripts/write_shapefile/*.shp
+utility_scripts/write_shapefile/*.dbf
+utility_scripts/write_shapefile/*.prj
+utility_scripts/write_shapefile/*.shx
+
+# various unnecessary files
+.DS_Store
+*/.DS_Store
+*/*/.DS_Store
+*/*/*.pyc
+*/*/*/*.pyc
