@@ -17,6 +17,6 @@ Helpful pages:
 * [Pre- and Postprocessing scripts](https://github.com/julemai/CaSPAr/tree/master/utility_scripts)
 
 ## Citation
-Mai et al. (2019).<br>
+Mai et al. (2020).<br>
 The Canadian Surface Prediction Archive (CaSPAr): A Platform to Enhance Environmental Modeling in Canada and Globally.<br>
 *Bulletin of the American Meteorological Society*, https://doi.org/10.1175/BAMS-D-19-0143.1.
