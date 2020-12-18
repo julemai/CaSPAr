@@ -26,7 +26,7 @@ library(ncdf4)
 ncin <- nc_open("NetCDF_R.nc")  
 
 # view header
-ncid
+ncin
 
 # attributes of a variable
 ncatt_get(ncin,"lat")
