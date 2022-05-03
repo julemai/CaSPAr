@@ -27,7 +27,7 @@ Converts list of coordinates (in degrees) to a shapefile that can be uploaded to
 
 Polygon does not need to be closed.
 
-Requires shapefile package which can be installed using "pip install pyshp". 
+Requires shapefile package which can be installed using "pip install pyshp".
 For further details see: https://code.google.com/archive/p/pyshp/
 
 History
@@ -41,7 +41,7 @@ import sys
 
 
 def coords2shapefile(filename,coords):
-    
+
     """
     Converts given coordinates into shapefile that can be uploaded to CaSPAr.
 
@@ -57,7 +57,7 @@ def coords2shapefile(filename,coords):
 
     coords: array
         2-D Array of coordinates of a single polygon. CaSPAr does not support
-        multiple polygons. Polygon does not need to be closed. The shapefile package is 
+        multiple polygons. Polygon does not need to be closed. The shapefile package is
         checking and copies automatically the first point to the end if polygon is not closed.
         Example:
         [[-123,50], [-118,40], [-118,44], [-113,44]]              # unclosed geometry
@@ -71,7 +71,7 @@ def coords2shapefile(filename,coords):
 
     # make sure coords is a list of lists
     coords = [ list(ii) for ii in coords ]
-    
+
     # -----------------------
     # Check if polygon is clockwise:
     #       Use "shapefile.signed_area()" method to determine if a ring is clockwise or counter-clockwise
@@ -83,7 +83,7 @@ def coords2shapefile(filename,coords):
 
     if area >= 0:
         coords.reverse()    # transform counter-clockwise to clockwise
-    
+
     if sys.version_info < (3,0,0):
         # ------------------------
         # Create a polygon shapefile
@@ -91,9 +91,9 @@ def coords2shapefile(filename,coords):
         # Found under:
         #     https://code.google.com/archive/p/pyshp/
         w = shapefile.Writer(shapefile.POLYGON)
-        
+
         # an arrow-shaped polygon east of Vancouver, Seattle, and Portland
-        w.poly([coords])   
+        w.poly([coords])
         w.field('FIRST_FLD','C','40')
         w.record('First','Polygon')
         w.save(filename)
@@ -103,15 +103,15 @@ def coords2shapefile(filename,coords):
         # ------------------------
         # Found under:
         #     https://code.google.com/archive/p/pyshp/
-        w = shapefile.Writer(target=filename) 
-        
+        w = shapefile.Writer(target=filename)
+
         # an arrow-shaped polygon east of Vancouver, Seattle, and Portland
-        w.poly([coords])   
+        w.poly([coords])
         w.field('FIRST_FLD','C','40')
         w.record('First','Polygon')
         w.close()
-        
-    
+
+
     # ------------------------
     # Write projection information
     # ------------------------
