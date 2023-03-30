@@ -1,10 +1,9 @@
-# The Canadian Surface Prediction Archive (CaSPAr): A Platform to Enhance Environmental Modeling in Canada and Globally
-*by Juliane Mai, Kurt C. Kornelsen, Bryan A. Tolson, Vincent Fortin, Nicolas Gasset and Djamel Bouhemhem, David Schäfer, Michael Leahy, François Anctil, and Paulin Coulibaly*
-
 Please find the English version of this README [here](README.md).<br>
 Veuillez trouver la version anglaise de ce README [ici](README.md).
 
 
+# The Canadian Surface Prediction Archive (CaSPAr): A Platform to Enhance Environmental Modeling in Canada and Globally
+*by Juliane Mai, Kurt C. Kornelsen, Bryan A. Tolson, Vincent Fortin, Nicolas Gasset and Djamel Bouhemhem, David Schäfer, Michael Leahy, François Anctil, and Paulin Coulibaly*
 
 ## Résumé
 Les Archives canadiennes de prévisions de surface (CaSPAr) sont des archives de prévisions météorologiques numériques publiées par Environnement et Changement climatique Canada. Parmi les produits archivés quotidiennement figurent cinq prévisions météorologiques numériques opérationnelles, trois analyses opérationnelles et un produit de réanalyse. Les produits ont une résolution temporelle horaire à quotidienne et spatiale de 2,5 km à 50 km. À ce jour, septembre 2019, l'archive contient 394 To de données tandis que 368 Go de nouvelles données sont ajoutées chaque nuit (état : février 2020). Les données sont archivées au format NetCDF4 compatible CF-1.6. L'archive est disponible [en ligne](https://caspar-data.ca) depuis juin 2017 et permet aux utilisateurs de demander précisément des données en fonction de leurs besoins, c'est-à-dire un recadrage spatial basé sur une forme standard ou un fichier de formes téléchargé du domaine d'intérêt, sélection des horizons de prévision, des variables ainsi que des dates d'émission. Le degré de personnalisation de CaSPAr est une caractéristique unique par rapport aux autres archives de prévisions météorologiques numériques accessibles au public et il minimise les exigences de téléchargement des utilisateurs et le temps de traitement local. Nous comparons le temps de traitement et le stockage requis de ces demandes sur la base de 216 scénarios de test. Nous démontrons également comment les données CaSPAr peuvent être utilisées pour analyser les événements de précipitations extrêmes. CaSPAr donne accès à des données fondamentales pour évaluer les modèles numériques de prévision météorologique et démontrer l'amélioration de produits tels que les systèmes de prévision des crues et de la demande d'énergie.
