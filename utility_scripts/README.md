@@ -28,7 +28,7 @@ Liste des outils disponibles :
 Dossier | Description
 :------------------------- | :-----------------------------------
 lib | outils Python couramment utilisés dans les autres scripts
-parcelles | script pour tracer vos données en PNG ou PDF
-lire_netcdf | des scripts pour montrer comment lire des fichiers NetCDF avec différents langages de script
-écrire_netcdf | des scripts pour montrer comment écrire des fichiers NetCDF avec différents langages de script
+plots | script pour tracer vos données en PNG ou PDF
+read_netcdf | des scripts pour montrer comment lire des fichiers NetCDF avec différents langages de script
+write_netcdf | des scripts pour montrer comment écrire des fichiers NetCDF avec différents langages de script
 write_shapefile | script et fonction pour écrire les coordonnées d'un polygone dans un fichier de formes qui peut être téléchargé sur CaSPAr
