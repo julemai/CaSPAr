@@ -1,8 +1,8 @@
 # The Canadian Surface Prediction Archive (CaSPAr): A Platform to Enhance Environmental Modeling in Canada and Globally
 *by Juliane Mai, Kurt C. Kornelsen, Bryan A. Tolson, Vincent Fortin, Nicolas Gasset and Djamel Bouhemhem, David Schäfer, Michael Leahy, François Anctil, and Paulin Coulibaly*
 
-Please find the English version of this README [here](README_en.md).<br>
-Veuillez trouver la version anglaise de ce README [ici](README_en.md).
+Please find the English version of this README [here](README.md).<br>
+Veuillez trouver la version anglaise de ce README [ici](README.md).
 
 
 
