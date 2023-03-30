@@ -1,7 +1,7 @@
 # The Canadian Surface Prediction Archive (CaSPAr): A Platform to Enhance Environmental Modeling in Canada and Globally
 *by Juliane Mai, Kurt C. Kornelsen, Bryan A. Tolson, Vincent Fortin, Nicolas Gasset and Djamel Bouhemhem, David Schäfer, Michael Leahy, François Anctil, and Paulin Coulibaly*
 
-Please find the English version of this README [here](README_en.md).
+Please find the English version of this README [here](README_en.md).<br>
 Veuillez trouver la version anglaise de ce README [ici](README_en.md).
 
 
@@ -18,8 +18,8 @@ Pages utiles :
 * [Comment démarrer et télécharger vos premières données](https://github.com/julemai/CaSPAr/wiki/How-to-get-started-and-download-your-first-data)
 * [Produits disponibles](https://github.com/julemai/CaSPAr/wiki/Available-products)
 * [Convention de dénomination des fichiers CaSPAr et variables](https://github.com/julemai/CaSPAr/wiki/CaSPAr-file-naming-convention-and-variables)
-* [Introduction à la lecture et à l'écriture de fichiers NetCDF] (https://github.com/julemai/CaSPAr/wiki/Introduction-of-Reading-and-Writing-NetCDF-files)
-* [Scripts de pré- et post-traitement] (https://github.com/julemai/CaSPAr/tree/master/utility_scripts)
+* [Introduction à la lecture et à l'écriture de fichiers NetCDF](https://github.com/julemai/CaSPAr/wiki/Introduction-of-Reading-and-Writing-NetCDF-files)
+* [Scripts de pré- et post-traitement](https://github.com/julemai/CaSPAr/tree/master/utility_scripts)
 
 ## Citation
 Mai et al. (2020).<br>
