@@ -40,7 +40,7 @@ import shapefile
 import sys
 
 
-def coords2shapefile(filename,coords):
+def coords2shapefile(filename,coords,epsg=None):
 
     """
     Converts given coordinates into shapefile that can be uploaded to CaSPAr.
@@ -117,8 +117,11 @@ def coords2shapefile(filename,coords):
     # ------------------------
     # Found under:
     #     https://code.google.com/archive/p/pyshp/wikis/CreatePRJfiles.wiki
+    # look up other WKT strings here:
+    #     https://spatialreference.org
     prj = open("%s.prj" % filename, "w")
-    epsg = 'GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433]]'
+    if epsg is None:
+        epsg = 'GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433]]'
     prj.write(epsg)
     prj.close()
 
